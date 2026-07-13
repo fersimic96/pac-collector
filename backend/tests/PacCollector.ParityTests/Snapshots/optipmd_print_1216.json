@@ -1,0 +1,79 @@
+{
+  "analyzerType": "OptiPMD",
+  "serial": "1216",
+  "sampleIdentifier": "IRAM 2 2024",
+  "operator": "Fer",
+  "program": "ASTM D7345",
+  "startAt": "2026-04-25T21:08:00+00:00",
+  "ibp": 151.5,
+  "fbp": 260.7,
+  "residue": 1.3,
+  "recovery": 98.1,
+  "endOfTest": true,
+  "curve": {
+    "count": 11,
+    "points": [
+      {
+        "pctRecovered": 5,
+        "temperatureC": 167
+      },
+      {
+        "pctRecovered": 10,
+        "temperatureC": 174
+      },
+      {
+        "pctRecovered": 20,
+        "temperatureC": 185.2
+      },
+      {
+        "pctRecovered": 30,
+        "temperatureC": 191.2
+      },
+      {
+        "pctRecovered": 40,
+        "temperatureC": 197
+      },
+      {
+        "pctRecovered": 50,
+        "temperatureC": 201.8
+      },
+      {
+        "pctRecovered": 60,
+        "temperatureC": 207
+      },
+      {
+        "pctRecovered": 70,
+        "temperatureC": 213.3
+      },
+      {
+        "pctRecovered": 80,
+        "temperatureC": 220.3
+      },
+      {
+        "pctRecovered": 90,
+        "temperatureC": 230.7
+      },
+      {
+        "pctRecovered": 95,
+        "temperatureC": 240.8
+      }
+    ]
+  },
+  "extra": {
+    "ApplyBiasD7345": "No",
+    "BaromCorrection": "Yes",
+    "Correlation": "Auto",
+    "DICalculation": "No",
+    "EvapRecov": "Auto",
+    "FBPConfirmation": "Auto",
+    "FirmwareVersion": "3.02",
+    "HeadSN": "24 I8 M0044",
+    "ReportFormat": "Standard table",
+    "SampleType": "Standard",
+    "TempUnit": "C",
+    "TemperatureSpec": "no specification",
+    "VolumeSpec": "no specification"
+  },
+  "sourceIp": "192.168.1.50",
+  "receivedAtUnixSeconds": 1700000000
+}

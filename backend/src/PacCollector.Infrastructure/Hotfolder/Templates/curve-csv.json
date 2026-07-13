@@ -1,0 +1,14 @@
+{
+  "name": "curve-csv",
+  "filenameTemplate": "{Serial}_{SampleIdentifier}_{StartAt:yyyyMMdd_HHmm}.curva.csv",
+  "encoding": "utf-8",
+  "lineEnding": "LF",
+  "lines": [
+    "AnalyzerSN,{Serial}",
+    "SampleID,{SampleIdentifier}",
+    "%Recuperado,Temperatura (°C)",
+    "?{Ibp}?0 (IBP),{Ibp:R}",
+    "{Curve.ForEach:{PctRecovered:R},{TemperatureC:R}}",
+    "?{FbpVolume}?{FbpVolume:R} (FBP),{Fbp:R}"
+  ]
+}

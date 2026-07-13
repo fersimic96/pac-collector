@@ -1,0 +1,10 @@
+{
+  "pluginId": "optifzp-builtin",
+  "displayName": "PAC OptiFZP",
+  "analyzerType": "OptiFZP",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "fieldSpecs": [
+    { "key": "Freeze", "label": "Freezing Point", "unit": "°C", "group": "Resultado" }
+  ]
+}

@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PacCollector.Api/PacCollector.Api.csproj" />
+    <Project Path="src/PacCollector.Application/PacCollector.Application.csproj" />
+    <Project Path="src/PacCollector.Domain/PacCollector.Domain.csproj" />
+    <Project Path="src/PacCollector.Infrastructure/PacCollector.Infrastructure.csproj" />
+    <Project Path="src/PacCollector.Shell/PacCollector.Shell.csproj" />
+    <Project Path="src/PacCollector.MockDevice/PacCollector.MockDevice.csproj" />
+    <Project Path="src/PacCollector.Tools/PacCollector.Tools.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PacCollector.Api.Tests/PacCollector.Api.Tests.csproj" />
+    <Project Path="tests/PacCollector.Application.Tests/PacCollector.Application.Tests.csproj" />
+    <Project Path="tests/PacCollector.Domain.Tests/PacCollector.Domain.Tests.csproj" />
+    <Project Path="tests/PacCollector.Infrastructure.Tests/PacCollector.Infrastructure.Tests.csproj" />
+    <Project Path="tests/PacCollector.ParityTests/PacCollector.ParityTests.csproj" />
+  </Folder>
+</Solution>

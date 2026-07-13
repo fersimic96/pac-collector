@@ -1,0 +1,46 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.userprefs
+*.suo
+*.cache
+*.pidb
+*.swp
+*.swo
+
+# Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+*.sln.docstates
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+.nuget/
+
+# Publish output
+publish/
+out/
+
+# Photino native runtime caches
+Photino.NET/
+
+# macOS metadata (exFAT)
+.DS_Store
+._*
+
+# Test output
+TestResults/
+coverage*.xml
+coverage*.json
+*.trx
+
+# Velopack installer artifacts
+Releases/
+*.exe.config.deploy
+
+# release artifacts (binarios .exe/.zip + payloads de prueba)
+output/

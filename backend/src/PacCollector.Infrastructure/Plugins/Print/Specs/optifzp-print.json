@@ -1,0 +1,21 @@
+{
+  "id": "optifzp-print-builtin",
+  "displayName": "PAC OptiFZP (modo Print/Iris)",
+  "analyzerType": "OptiFZP",
+  "vendor": "PAC Collector",
+  "version": "0.2.0",
+  "kind": "labelValue",
+  "headerMarker": "OptiFZP",
+  "headlineLabel": "Freeze point",
+  "extraFieldKeys": [
+    { "label": "Cd", "key": "Cd" },
+    { "label": "Co", "key": "Co" },
+    { "label": "Do", "key": "Do" }
+  ],
+  "fieldSpecs": [
+    { "key": "FreezePoint", "label": "Freeze Point", "unit": "°C", "group": "Resultado" },
+    { "key": "Cd", "label": "Cd (cristalización detectada)", "unit": "°C", "group": "Resultado" },
+    { "key": "Co", "label": "Co (cristalización observada)", "unit": "°C", "group": "Resultado" },
+    { "key": "Do", "label": "Do (Freeze point determinado)", "unit": "°C", "group": "Resultado" }
+  ]
+}

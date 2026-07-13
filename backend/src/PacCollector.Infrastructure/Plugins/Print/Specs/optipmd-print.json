@@ -1,0 +1,34 @@
+{
+  "id": "optipmd-print-builtin",
+  "displayName": "PAC OptiPMD (modo Print/Iris)",
+  "analyzerType": "OptiPMD",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "kind": "distillation",
+  "headerMarker": "OptiPMD",
+  "headlineLabel": "IBP",
+  "extraFieldKeys": [
+    { "label": "Head SN", "key": "HeadSN" },
+    { "label": "AtmPrs", "key": "AtmPrs" },
+    { "label": "Temperature spec", "key": "TemperatureSpec" },
+    { "label": "Volume spec", "key": "VolumeSpec" },
+    { "label": "Sample type", "key": "SampleType" },
+    { "label": "Temp unit", "key": "TempUnit" },
+    { "label": "Report", "key": "ReportFormat" },
+    { "label": "Apply bias D7345-23", "key": "ApplyBiasD7345" },
+    { "label": "Start temp", "key": "StartTemp" },
+    { "label": "FBP confirmation", "key": "FBPConfirmation" },
+    { "label": "Correlation", "key": "Correlation" },
+    { "label": "Barom. correction", "key": "BaromCorrection" },
+    { "label": "Evap./Recov.", "key": "EvapRecov" },
+    { "label": "DI calculation", "key": "DICalculation" }
+  ],
+  "fieldSpecs": [
+    { "key": "HeadSN", "label": "Serie del cabezal", "unit": "", "group": "Identificación" },
+    { "key": "AtmPrs", "label": "Presión atmosférica", "unit": "kPa", "group": "Configuración" },
+    { "key": "StartTemp", "label": "Temperatura inicial", "unit": "°C", "group": "Configuración" },
+    { "key": "TempUnit", "label": "Unidad de temperatura", "unit": "", "group": "Configuración" },
+    { "key": "ReportFormat", "label": "Formato de reporte", "unit": "", "group": "Configuración" },
+    { "key": "Correlation", "label": "Correlación", "unit": "", "group": "Configuración" }
+  ]
+}

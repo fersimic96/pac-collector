@@ -1,0 +1,72 @@
+
+
+                                                                      1 -2                              OptiDist 215003LB_706_OPTIDIST          12/05/2026                              Result                                  10:59:27
+
+ Run
+               Sampl:                    e                    D                     7                                Stat:                                                           uC                                                                                                                         sompleted
+               Repor                   :P                    t                     AC                              Softwa                                                           :r                                                           2                                                             e                                                            .0.0.3
+               Produ:                    c                    G                                          t                     OL Y TKS                        Firmwa:                                                           r                                                           2                                                                                                                         e                                                            .00|2.00|2.00|2.00
+              Test d                   :a                    2                     t                     4e                      /04/2026 00:19:25              Operat                                                           :o                                                           S                                                             r                                                            alcedo, Bruno
+              Standa                   :r                     dASTM D 86 -G4                   Grou:                                                           p4                                                             
+         Thermometer:                                         _                                          t                     8y                      Cp                       _e                        8F                      Thermomete:                                                           r                                                              SN                                                              25010017-B
+                Not:                   e 
+
+ Product
+              Standa                   :r                     dASTM D 86 -G4               Product                                                            :t                                                           R                                                             y                                                            op                                                             ue                                                              tine
+       Barometric co                   :r                     re                      Dc                       8t                        6ion                         Dist.                                                            :r                                                             at                                                              4e                                                               .5mL/min
+               Repor                   :P                    t                     AC                           Flask mat                                                           :B                                                            e                                                             o                                                             rr                                                              io                                                               as                                                                lilicate
+           Heating m                   :O                    o                     n                     de                      e button
+        Condenser se                   :C                    t                     o                     pn                      os                       it                        na                         tnt                         Consta                                                           :n                                                             t50.0  °C
+         Receiver se                   :C                    t                     o                     pn                      os                       it                        na                         tnt                         Consta                                                           :n                                                             t40.0  °C
+         Endpoint se                   :A                    t                     t                     p                       oF                       iB                        nP                         t                       At temper:                                                           a                                                             tur                                                              °e                                                               C
+                                                     At vol:                                                           u                                                             me%
+        Final heat r:                    e                    A                                          g                     uu                      tl                       oa                        mt                         ai                          to                           in                            c
+          FBP temp.                    :d                     ro                      2p                       .0  °C                     FBP time                                                            :m                                                             ax                                                              300s
+          Dry point                    :d                    A                     e                     ut                      te                       oct.                       Dry point:                                                                                                                         de0                                                              ls                                                               ay
+         Recovery d:                   e                     teV                      co                       tl                        .ume change         120sRes                                                    0i                                                     .d                                                      1u                                                       me                                                        L de                                                           :t                                                             ec                                                              Pt                                                               r.                                                                ediction
+         Hesitation                    :d                     et                      Fe                       ac                        lt                         s.                          e                  Decomposition:                                                                                                                         deF                                                              ta                                                               el                                                                cs                                                                 te                                                                  .
+
+ Distillation results
+              Recove:                    r                      y97.7%                       Temperat                                                           :u                                                             re                                                              34.8  °C
+              Resid:                   u                     e 1.6mL                     Barom. pre:                                                           s                                                             su8                                                              r9                                                               e.7kPa
+           Total rec                   :o                     ve                      9r                       9y                        .3%                     Condenser :                                                           t                                                             emp                                                              5.                                                               0.0  °C
+             Obser. :                    l                      os0                       s.7%                       Receiver :                                                           t                                                             em4                                                              p0                                                               ..0  °C
+            Correct.                   :                      lo                      0s                       .s                        6%                       Hesitatio:                                                           n                                                              po                                                              °i                                                               Cnt
+         Correct. r:                   e                     cov                      9e                       7r                        .y                         9%                   Decompositio:                                                           n                                                              po                                                              °i                                                               Cnt
+       Correct. tota:                    l                       r9                       e9                        c.                         o4                          v%                           ery
+            Boiling :                    r                      an2                       g6                        e4.7   °C
+           Volume at                   :                      IB                      0P                       .39mL                    Charged vo:                                                           l                                                             um1                                                              e00.00mL
+          Volume sca:                    n                    T                                          n                     re                      ud                       e
+
+ Distillation table
+  Standard           Obser. °C           Correct. °C           Evap. °C
+                                                              IBP           134.
+
+                                                                      2 -2                              OptiDist 215003LB_706_OPTIDIST          12/05/2026                              Result                                  10:59:27
+
+ Graph:Vapor
+                    Obser.   Correct.  Evap.   Dist. rate
+                                                                       5.0
+   380.0                                                              4.5
+                                                                       4.0   330.0
+                                                                       3.5
+   280.0                                                              3.0
+                                                                       2.5   230.0
+                                                                       2.0
+   180.0                                                              1.5
+                                                                       1.0       0     10    20    30    40    50    60    70    80    90                                   Volume %
+
+ Specs:Method
+                         Min    Measure   Max
+                 IBP time5                15                      : 
+                 5% ti:                      m                        e           109s       --
+                 10% ti:                       m                         e       03min00s       --
+                 FBP ti                      :m                        e 0                5
+
+            Dist. rate                       :f                        ro                         4m                          .                            05%             5.0
+                   Los:                      s            0.7mL       --
+ Vapor temperature typeCorrect.
+
+ Specs:Temperatures
+       Temp. °C                Min %              Volume %                Max %
+                           360.0                               85.3

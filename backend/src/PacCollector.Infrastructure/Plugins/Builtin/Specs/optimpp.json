@@ -1,0 +1,18 @@
+{
+  "pluginId": "optimpp-builtin",
+  "displayName": "PAC OptiMPP",
+  "analyzerType": "OptiMPP",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "fieldSpecs": [
+    { "key": "PourpointResult", "label": "Pour Point", "unit": "°C", "group": "Resultado" },
+    { "key": "PourpointSpec", "label": "Spec del Pour Point", "unit": "°C", "group": "Configuración" },
+    { "key": "PourpointEndOfTest", "label": "Test terminó OK", "unit": "", "group": "Resultado" },
+    { "key": "Pour_Result", "label": "Resultado pour point", "unit": "°C", "group": "Resultado" },
+    { "key": "Pour_ResultTime", "label": "Tiempo de resultado", "unit": "s", "group": "Resultado" },
+    { "key": "Pour_StepNum", "label": "N° de paso", "unit": "", "group": "Resultado" },
+    { "key": "Pour_Tilts", "label": "N° de inclinaciones", "unit": "", "group": "Resultado" },
+    { "key": "ExpectedPourpoint", "label": "Pour Point esperado", "unit": "°C", "group": "Configuración" },
+    { "key": "CorrectedPourpoint", "label": "Pour Point corregido", "unit": "°C", "group": "Resultado" }
+  ]
+}

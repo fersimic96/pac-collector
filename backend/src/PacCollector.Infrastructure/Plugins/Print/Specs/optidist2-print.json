@@ -1,0 +1,30 @@
+{
+  "id": "optidist2-print-builtin",
+  "displayName": "PAC OptiDist2 (modo Print/Iris)",
+  "analyzerType": "OptiDist2",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "kind": "optiDist",
+  "headerMarker": "OptiDist",
+  "headerRegexOverride": "OptiDist\\s+(\\d+)",
+  "requiresCrRender": true,
+  "headlineLabel": "IBP",
+  "extraFieldKeys": [
+    {
+      "key": "BoilingRange",
+      "label": "Boiling range",
+      "pattern": "Boiling range\\s*(\\d+\\.?\\d*)",
+      "group": 1
+    },
+    {
+      "key": "Standard",
+      "label": "Standard",
+      "pattern": "(ASTM\\s+[A-Z]\\s+\\d+\\s*-\\s*\\S+)",
+      "group": 1
+    }
+  ],
+  "fieldSpecs": [
+    { "key": "BoilingRange", "label": "Rango de ebullición", "unit": "°C", "group": "Resultado" },
+    { "key": "Standard", "label": "Norma", "unit": "", "group": "Identificación" }
+  ]
+}

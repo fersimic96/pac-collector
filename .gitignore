@@ -1,0 +1,39 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.vs/
+
+# ── Backend .NET ───────────────────────────────
+backend/**/bin/
+backend/**/obj/
+backend/output/
+backend/publish/
+backend/releases/
+backend/frontend/dist/
+backend/TestResults/
+*.user
+*.suo
+
+# ── Frontend React ─────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/test-results/
+frontend/playwright-report/
+frontend/coverage/
+.env
+.env.local
+.env.*.local
+
+# ── Logs ──────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

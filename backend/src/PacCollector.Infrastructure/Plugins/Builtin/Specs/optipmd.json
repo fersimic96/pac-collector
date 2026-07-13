@@ -1,0 +1,21 @@
+{
+  "pluginId": "optipmd-builtin",
+  "displayName": "PAC OptiPMD",
+  "analyzerType": "OptiPMD",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "fieldSpecs": [
+    { "key": "IBP", "label": "Initial Boiling Point", "unit": "°C", "group": "Destilación" },
+    { "key": "FBP", "label": "Final Boiling Point", "unit": "°C", "group": "Destilación" },
+    { "key": "FBPvolume", "label": "% volumen al alcanzar FBP", "unit": "%", "group": "Destilación" },
+    { "key": "Residue", "label": "% residuo", "unit": "%", "group": "Destilación" },
+    { "key": "Recovery", "label": "% volumen recuperado total", "unit": "%", "group": "Destilación" },
+    { "key": "ThermoCorrelation", "label": "Correlación termodinámica", "unit": "", "group": "Destilación" },
+    { "key": "HeatingAdjustment", "label": "Ajuste de calentamiento", "unit": "", "group": "Destilación" },
+    { "key": "CorrelationProduct", "label": "Producto correlacionado", "unit": "", "group": "Configuración" },
+    { "key": "StartTemperatureLimit", "label": "Límite mínimo de T° inicial", "unit": "°C", "group": "Configuración" },
+    { "key": "VolumeSpecification", "label": "Spec de volumen", "unit": "", "group": "Configuración" },
+    { "key": "TemperatureSpecification", "label": "Spec de temperatura", "unit": "", "group": "Configuración" },
+    { "key": "Ethanol", "label": "Contenido de etanol", "unit": "%", "group": "Configuración" }
+  ]
+}

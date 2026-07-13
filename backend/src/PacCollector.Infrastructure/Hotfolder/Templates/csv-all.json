@@ -1,0 +1,26 @@
+{
+  "name": "csv-all",
+  "filenameTemplate": "{Serial}_{SampleIdentifier}_{StartAt:yyyyMMdd_HHmm}.csv",
+  "encoding": "utf-8",
+  "lineEnding": "CRLF",
+  "lines": [
+    "Key;Value",
+    "Instrument;{Alias|AnalyzerType}",
+    "AnalyzerType;{AnalyzerType}",
+    "AnalyzerSN;{Serial}",
+    "SampleId;{SampleIdentifier}",
+    "?{Operator}?OperatorId;{Operator}",
+    "?{Program}?ProgramName;{Program}",
+    "?{Ibp}?IBP;{Ibp:R}",
+    "?{Fbp}?FBP;{Fbp:R}",
+    "?{Residue}?Residue;{Residue:R}",
+    "?{Recovery}?Recovery;{Recovery:R}",
+    "?{FbpVolume}?FBPVolume;{FbpVolume:R}",
+    "{Curve.ForEach:Recovered_{PctPadded4};{TemperatureC:R}}",
+    "{Extra.ForEach:{Key};{Value}}",
+    "ReceivedAt;{ReceivedAt:o}",
+    "?{StartAt}?StartAt;{StartAt:o}",
+    "?{EndAt}?EndAt;{EndAt:o}",
+    "?{SourceIp}?SourceIP;{SourceIp}"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "pluginId": "optifuel-builtin",
+  "displayName": "PAC OptiFuel",
+  "analyzerType": "OptiFuel",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "fieldSpecs": [
+    { "key": "CetaneNumber", "label": "Cetane Number", "unit": "", "group": "Resultado" },
+    { "key": "CetaneIndex", "label": "Cetane Index", "unit": "", "group": "Resultado" },
+    { "key": "Density", "label": "Densidad", "unit": "g/cm³", "group": "Resultado" },
+    { "key": "Benzene", "label": "Benceno", "unit": "%", "group": "Resultado" },
+    { "key": "Saturates", "label": "Saturados", "unit": "%", "group": "Resultado" },
+    { "key": "Olefins", "label": "Olefinas", "unit": "%", "group": "Resultado" },
+    { "key": "MonoAromatics", "label": "Mono-aromáticos", "unit": "%", "group": "Resultado" },
+    { "key": "DiAromatics", "label": "Di-aromáticos", "unit": "%", "group": "Resultado" },
+    { "key": "PolycyclicAromatics", "label": "Aromáticos policíclicos", "unit": "%", "group": "Resultado" },
+    { "key": "TriPlusAromatics", "label": "Tri+ aromáticos", "unit": "%", "group": "Resultado" },
+    { "key": "TotalAromatics", "label": "Aromáticos totales", "unit": "%", "group": "Resultado" },
+    { "key": "VOCPerform", "label": "VOC Performance", "unit": "", "group": "Resultado" },
+    { "key": "VOC", "label": "VOC", "unit": "", "group": "Resultado" }
+  ]
+}

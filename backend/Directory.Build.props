@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <DefaultItemExcludes>$(DefaultItemExcludes);**/._*;**/.DS_Store</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <!-- excluir AppleDouble resource forks que macOS crea en volumenes no-APFS
+       (ej. discos externos formateados ExFAT). Si no, el compilador intenta
+       parsearlos como C# binario y rompe el build. -->
+  <ItemGroup>
+    <Compile Remove="**/._*.cs" />
+    <EmbeddedResource Remove="**/._*" />
+    <Content Remove="**/._*" />
+    <None Remove="**/._*" />
+  </ItemGroup>
+</Project>

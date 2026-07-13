@@ -1,0 +1,28 @@
+{
+  "analyzerType": "OptiCPP",
+  "serial": "8035",
+  "sampleIdentifier": "CC GO 0818",
+  "operator": "Fer",
+  "program": "ASTM D2500",
+  "startAt": "2026-04-07T12:09:00+00:00",
+  "endOfTest": true,
+  "curve": {
+    "count": 0,
+    "points": []
+  },
+  "extra": {
+    "CloudPoint": "-5.7",
+    "CoolingProfile": "ASTM D2500",
+    "DetectionLevelCP": "100",
+    "Ending": "CP detected",
+    "FirmwareVersion": "1.84",
+    "HeadSN": "23I8M043",
+    "Preheating": "No pre heating",
+    "RoundedResult": "No",
+    "StopTemperature": "-120.0",
+    "TestMode": "Normal",
+    "TypeOfAnalysis": "Cloud point"
+  },
+  "sourceIp": "192.168.1.50",
+  "receivedAtUnixSeconds": 1700000000
+}

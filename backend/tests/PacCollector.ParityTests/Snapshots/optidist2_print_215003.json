@@ -1,0 +1,22 @@
+{
+  "analyzerType": "OptiDist2",
+  "serial": "215003",
+  "sampleIdentifier": "D7",
+  "operator": "Salcedo, Bruno",
+  "program": "GOL Y TKS",
+  "startAt": "2026-04-24T00:19:25+00:00",
+  "ibp": 134,
+  "residue": 1.6,
+  "recovery": 97.7,
+  "endOfTest": true,
+  "curve": {
+    "count": 0,
+    "points": []
+  },
+  "extra": {
+    "BoilingRange": "4.7",
+    "Standard": "ASTM D 86 -G4"
+  },
+  "sourceIp": "192.168.1.50",
+  "receivedAtUnixSeconds": 1700000000
+}

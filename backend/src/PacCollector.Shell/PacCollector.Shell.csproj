@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms Condition="$([MSBuild]::IsOSPlatform('Windows'))">false</UseWindowsForms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationIcon>pac-icon.ico</ApplicationIcon>
+    <AssemblyTitle>PAC Collector</AssemblyTitle>
+    <Product>PAC Collector</Product>
+    <Company>PAC Collector</Company>
+    <Description>PAC Collector — launcher</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Photino.NET removido: la version 4.0.16 en Windows con WebView2 daba
+         pantalla en blanco en algunas PCs (paths de usuario con espacios, cache
+         flaky, etc). El Shell ahora es un launcher minimo que abre el browser
+         default del usuario para mostrar la UI servida por el Api en :5174. -->
+    <PackageReference Include="Velopack" Version="0.0.1298" />
+  </ItemGroup>
+
+</Project>

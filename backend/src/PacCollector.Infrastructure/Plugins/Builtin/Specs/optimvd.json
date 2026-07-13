@@ -1,0 +1,12 @@
+{
+  "pluginId": "optimvd-builtin",
+  "displayName": "PAC OptiMVD",
+  "analyzerType": "OptiMVD",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "fieldSpecs": [
+    { "key": "DynamicViscosity", "label": "Viscosidad dinámica", "unit": "cP", "group": "Resultado" },
+    { "key": "Density", "label": "Densidad", "unit": "g/cm³", "group": "Resultado" },
+    { "key": "Viscosity", "label": "Viscosidad", "unit": "cSt", "group": "Resultado" }
+  ]
+}

@@ -1,0 +1,40 @@
+Status: C
+Instrument: DESTILA-1
+Probe serial number: 2125
+
+Sample: LAB-001
+Description: 
+Start of distillation: 2023-11-14T22:13:20.000
+End of distillation: 2023-11-14T22:58:20.000
+Standard: ASTM D86
+Group: 1
+Temp. unit: C
+Product: 
+
+Percent recovery: 97.5
+Corr. recovery: NaN
+Residue: 1.2
+Barom. pressure: NaN
+Total recovery: NaN
+Corr. total recovery: NaN
+Observed loss: NaN
+Corr. loss: NaN
+Condenser temp.: NaN
+Receiver temp.: NaN
+Ambient temp.: NaN
+
+User(Instrument): LUIS
+Heating mode: NaN
+FBP detection mode: NaN
+Final heating adjustment: NaN
+Stop condition: NaN
+Temp. stop: NaN
+
+Corrected
+========= 
+IBP 35.2
+5% 52.1
+50% 130.4
+95% 205.4
+FBP 215.8
+

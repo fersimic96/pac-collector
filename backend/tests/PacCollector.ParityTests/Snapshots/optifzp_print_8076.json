@@ -1,0 +1,27 @@
+{
+  "analyzerType": "OptiFZP",
+  "serial": "8076",
+  "sampleIdentifier": "LXV10",
+  "operator": "LUIS",
+  "program": "ASTM D7153",
+  "startAt": "2026-05-05T11:45:00+00:00",
+  "endOfTest": true,
+  "curve": {
+    "count": 0,
+    "points": []
+  },
+  "extra": {
+    "Cd": "-106.2",
+    "Co": "-108.8",
+    "Cycle": "1",
+    "Do": "-92.1",
+    "Ending": "FZP detected",
+    "FirmwareVersion": "3.00",
+    "FreezePoint": "-92.1",
+    "ResultIndex": "1",
+    "RoundedResult": "No",
+    "StopTemperature": "-120.0"
+  },
+  "sourceIp": "192.168.1.50",
+  "receivedAtUnixSeconds": 1700000000
+}

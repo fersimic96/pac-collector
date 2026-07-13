@@ -1,0 +1,25 @@
+{
+  "id": "opticpp-print-builtin",
+  "displayName": "PAC OptiCPP (modo Print/Iris)",
+  "analyzerType": "OptiCPP",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "kind": "labelValue",
+  "headerMarker": "OptiCPP",
+  "headlineLabel": "Cloud point",
+  "extraFieldKeys": [
+    { "label": "Type of analysis", "key": "TypeOfAnalysis" },
+    { "label": "Cooling profile", "key": "CoolingProfile" },
+    { "label": "Test mode", "key": "TestMode" },
+    { "label": "Preheating", "key": "Preheating" },
+    { "label": "Detection level CP", "key": "DetectionLevelCP" }
+  ],
+  "fieldSpecs": [
+    { "key": "CloudPoint", "label": "Cloud Point", "unit": "°C", "group": "Resultado" },
+    { "key": "TypeOfAnalysis", "label": "Tipo de análisis", "unit": "", "group": "Configuración" },
+    { "key": "CoolingProfile", "label": "Perfil de enfriamiento", "unit": "", "group": "Configuración" },
+    { "key": "TestMode", "label": "Modo de test", "unit": "", "group": "Configuración" },
+    { "key": "Preheating", "label": "Pre-calentamiento", "unit": "", "group": "Configuración" },
+    { "key": "DetectionLevelCP", "label": "Nivel de detección CP", "unit": "", "group": "Configuración" }
+  ]
+}

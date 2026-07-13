@@ -1,0 +1,17 @@
+{
+  "pluginId": "opticpp-builtin",
+  "displayName": "PAC OptiCPP",
+  "analyzerType": "OptiCPP",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "fieldSpecs": [
+    { "key": "CloudpointResult", "label": "Cloud Point", "unit": "°C", "group": "Resultado" },
+    { "key": "CloudpointSpec", "label": "Spec del Cloud Point", "unit": "°C", "group": "Configuración" },
+    { "key": "Cloudpoint_EndOfTest", "label": "Test terminó OK", "unit": "", "group": "Resultado" },
+    { "key": "Cloud_Result", "label": "Resultado nube", "unit": "°C", "group": "Resultado" },
+    { "key": "Cloud_ResultTime", "label": "Tiempo de resultado", "unit": "s", "group": "Resultado" },
+    { "key": "Cloud_StepNum", "label": "N° de paso", "unit": "", "group": "Resultado" },
+    { "key": "ExpectedCloud_point", "label": "Cloud Point esperado", "unit": "°C", "group": "Configuración" },
+    { "key": "NotroundedCloud_point", "label": "Cloud Point sin redondear", "unit": "°C", "group": "Resultado" }
+  ]
+}

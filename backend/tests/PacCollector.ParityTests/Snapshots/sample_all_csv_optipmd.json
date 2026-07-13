@@ -1,0 +1,19 @@
+Key;Value
+Instrument;DESTILA-1
+AnalyzerType;OptiPMD
+AnalyzerSN;2125
+SampleId;LAB-001
+OperatorId;LUIS
+ProgramName;ASTM D86
+IBP;35.2
+FBP;215.8
+Residue;1.2
+Recovery;97.5
+FBPVolume;96
+Recovered_0005;52.1
+Recovered_0050;130.4
+Recovered_0095;205.4
+ReceivedAt;2023-11-14T22:13:20.0000000+00:00
+StartAt;2023-11-14T22:13:20.0000000+00:00
+EndAt;2023-11-14T22:58:20.0000000+00:00
+SourceIP;192.168.1.10

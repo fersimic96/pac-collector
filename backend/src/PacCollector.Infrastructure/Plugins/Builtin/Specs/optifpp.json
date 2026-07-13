@@ -1,0 +1,14 @@
+{
+  "pluginId": "optifpp-builtin",
+  "displayName": "PAC OptiFPP",
+  "analyzerType": "OptiFPP",
+  "vendor": "PAC Collector",
+  "version": "0.1.0",
+  "fieldSpecs": [
+    { "key": "Cfpp_Result", "label": "CFPP", "unit": "°C", "group": "Resultado" },
+    { "key": "Cfpp_ResultTime", "label": "Tiempo de resultado", "unit": "s", "group": "Resultado" },
+    { "key": "Cfpp_StepNum", "label": "N° de paso", "unit": "", "group": "Resultado" },
+    { "key": "Cfpp_ExpPP", "label": "CFPP esperado", "unit": "°C", "group": "Configuración" },
+    { "key": "Cfpp_Suctions", "label": "Succiones", "unit": "", "group": "Resultado" }
+  ]
+}
