@@ -1,0 +1,48 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version (sin v prefix, ej. 0.1.0)'
+        required: true
+        type: string
+
+jobs:
+  build-installer-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: derive version
+        id: version
+        shell: pwsh
+        run: |
+          if ($env:GITHUB_REF -like 'refs/tags/v*') {
+            $v = $env:GITHUB_REF -replace 'refs/tags/v',''
+          } else {
+            $v = '${{ inputs.version }}'
+          }
+          if (-not $v) { $v = '0.0.0' }
+          "version=$v" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          Write-Host "version=$v"
+
+      - name: install vpk
+        run: dotnet tool install --global vpk
+
+      - name: build installer
+        shell: pwsh
+        run: |
+          ./scripts/build-installer.ps1 -Version '${{ steps.version.outputs.version }}'
+
+      - name: upload installer artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PacCollector-installer-${{ steps.version.outputs.version }}
+          path: releases/*
